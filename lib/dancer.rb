@@ -3,6 +3,7 @@ require_relative './dance_module.rb'
 
 class Dancer
   include Dance
+  extend MetaDancing
  # include keyword allow classes to use all of included methods as instance varables
   attr_accessor :name
  
